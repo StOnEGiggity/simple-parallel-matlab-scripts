@@ -1,5 +1,5 @@
-clc;
-clear;
+clc
+clear
 for labs=[1,2,3,4]
     matlabpool('open','local',labs);
     n=10^7;
